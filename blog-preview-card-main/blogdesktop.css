@@ -1,0 +1,55 @@
+
+
+:root{
+---coloryellow: hsl(47, 88%, 63%);
+---colorwhite: hsl(0, 0%, 100%);
+---colorgray500: hsl(0, 0%, 42%);
+---colorgray950: hsl(0, 0%, 7%);
+}
+
+
+body{
+    background-color:var(---coloryellow);
+    width:100%;
+  }
+
+  @font-face {
+    font-family: inter-regular;
+    src: url('../assets/fonts/static/SemiBold.ttf');
+  }
+
+.white{
+  background-color:white;
+  width:65%;
+  border-radius:2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+
+}
+.head{
+  font-size:1rem;
+  fontt-weight:500;
+  background-color:var(---coloryellow);
+  border-radius:1rem;
+  width:11%;
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+  font-weight: 700;
+
+}
+.mainbackground{
+  display: flex;
+  padding: 3rem 3rem 3rem 3rem;
+  justify-content: center;
+
+}
+img{
+  width:100%;
+  padding: 1rem;
+  border-radius: 2rem;
+}
