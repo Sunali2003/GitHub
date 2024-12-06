@@ -20,7 +20,7 @@ body{
 
 .white{
   background-color:white;
-  width:65%;
+  width:55%;
   border-radius:2rem;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ body{
   fontt-weight:500;
   background-color:var(---coloryellow);
   border-radius:1rem;
-  width:11%;
+  width:14%;
   padding: 0.8rem 0.8rem 0.8rem 0.8rem;
   font-weight: 700;
 
@@ -52,4 +52,27 @@ img{
   width:100%;
   padding: 1rem;
   border-radius: 2rem;
+}
+.info{
+  padding:1rem 2rem 1rem 1rem;
+}
+.mainheading{
+  padding:0.7rem 2rem 1rem 1rem;
+  font-size:2rem;
+  font-weight:900;
+}
+.paragraph {
+	padding: 0rem 0rem 1rem 1rem;
+}
+.icon img{
+  width:7%;
+
+}
+.icon{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.last{
+font-size: smaller;
 }
