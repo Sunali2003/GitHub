@@ -1,0 +1,58 @@
+:root{
+--colorred: hsl(0, 100%, 74%);
+--colorgreen: hsl(154, 59%, 51%);
+--colorblue: hsl(248, 32%, 49%);
+--colordarkblue: hsl(249, 10%, 26%);
+--colorgrayishblue: hsl(246, 25%, 77%);
+}
+
+
+body {
+	margin: 0px;
+  font-family: "Poppins";
+}
+/* @font-face {
+  font-family:Poppins;
+} */
+
+.mainbackground{
+  display: flex;
+  justify-content: center;
+  background-image: url("");
+  background-color:var(--colorred);
+
+
+}
+.maintext{
+  line-height: 1.2;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.forMain-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem 5rem;
+  gap:3rem;
+}
+.leftside {
+	width: 40%;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+.blue {
+	color: white;
+	background: var(--colorblue);
+	padding: 1rem;
+	border-radius: 1rem;
+}
+.rightside {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
