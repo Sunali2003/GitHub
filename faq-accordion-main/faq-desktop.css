@@ -1,0 +1,83 @@
+
+
+
+:root{
+--white: hsl(0, 0%, 100%);
+--lightpink: hsl(275, 100%, 97%);
+--grayishpurple: hsl(292, 16%, 49%);
+--darkpurple: hsl(292, 42%, 14%);
+}
+
+
+body{
+  background-color:pink;
+  margin: 0px;
+  }
+
+.main-background{
+  background-image:url('./assets/background-pattern-desktop.svg');
+  height: 230px;
+  position: relative;
+
+
+  }
+  /*
+  .background-image{
+    position:absolute;
+    top:50%;
+    left:50%;
+
+  }
+  */
+
+
+.white-container{
+     background-color: white;
+     height:400px;
+     width:400px;
+     border-radius: 1rem;
+     position:absolute;
+     top:50%;
+     left:37%;
+
+
+
+   }
+.box{
+  display:flex;
+  font-size: 30px;
+  padding:1rem;
+}
+.box{
+  padding:1rem;
+
+}
+.faq {
+  display:flex;
+  padding: 5px;
+}
+.star{
+  padding:20px;
+
+
+}
+.d1 {
+	font-size: 16px;
+
+}
+.faq-container {
+	display: flex;
+  padding:2rem 2rem 0rem 2rem;
+}
+.faq-title {
+	font-size: 30px;
+	font-weight: bold;
+  padding:10px;
+}
+.faq-block {
+	padding: 0rem 2rem 2rem 2rem;
+
+}
+.star-icon {
+	padding: 10px;
+}
