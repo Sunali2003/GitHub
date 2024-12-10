@@ -37,7 +37,7 @@ body{
 
 .white-container{
      background-color:var(--white);
-     height:400px;
+     height:430px;
      width:500px;
      border-radius: 1rem;
      position:absolute;
@@ -71,7 +71,7 @@ body{
   padding:2rem 2rem 0rem 2rem;
 }
 .faq-title {
-	font-size: 30px;
+	font-size: 45px;
 	font-weight: bold;
   padding:10px;
   font-family:"Work Sans", sans-serif;
@@ -113,4 +113,67 @@ body{
 }
 .free{
   display:flex;
+}
+.plus1 {
+	display: flex;
+  padding: 1rem 0rem 1rem 0rem;
+	border-bottom: 1px solid #80808052;
+}
+.plus {
+
+
+}
+.plus img{
+  height:20px;
+}
+.plus2{
+  display: flex;
+	padding: 1rem 0rem 1rem 0rem;
+  border-bottom: 1px solid #80808052;
+}
+.plus3{
+  display: flex;
+  padding: 1rem 0rem 1rem 0rem;
+  border-bottom: 1px solid #80808052;
+}
+.star-icon {
+	padding: 1rem;
+}
+.plus1 img{
+  height:20px;
+  padding:0rem 0rem 0rem 13.3rem;
+}
+.plus2 img{
+    height:20px;
+      padding:0rem 0rem 0rem 1.4rem;
+}
+.plus3 img{
+    height:20px;
+      padding:0rem 0rem 0rem 3.7rem;
+}
+
+
+.plus1 .ques{
+  font-size:0.9rem;
+  font-weight:bold;
+  font-family:"Work Sans";
+}
+.plus2 .ques{
+  font-size:0.9rem;
+  font-weight:bold;
+  font-family:"Work Sans";
+}
+.plus3 .ques{
+  font-size:0.9rem;
+  font-weight:bold;
+  font-family:"Work Sans";
+}
+.plus1 .ques{
+
+}
+.plus2 .ques{
+
+}
+.plus3.ques{
+
 }
