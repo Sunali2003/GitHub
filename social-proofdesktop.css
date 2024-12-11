@@ -1,0 +1,37 @@
+
+:root{
+--verydarkmagenta: hsl(300, 43%, 22%);
+--softpink: hsl(333, 80%, 67%);
+--darkgrayishmagenta: hsl(303, 10%, 53%);
+--lightgrayishmagenta: hsl(300, 24%, 96%);
+--white: hsl(0, 0%, 100%);
+}
+
+.mainbackground{
+  background-color:var(--white);
+  line-height: 2.6rem;
+}
+
+.bigheading{
+  font-family: "League Spartan", sans-serif;
+  font-weight:860;
+  font-size:3rem;
+  color:var(--verydarkmagenta);
+}
+.fline{
+padding: 5rem 3rem 0rem 6rem;
+  }
+.sline{
+padding: 0rem 3rem 0rem 6rem;
+}
+.tline{
+padding: 0rem 4rem 1rem 6rem;
+}
+.smallheading{
+  font-family: "League Spartan", sans-serif;
+  font-size:1rem;
+  font-weight: bold;
+  color:var(--darkgrayishmagenta);
+  line-height: 1.4rem;
+  padding: 0rem 3rem 1rem 6rem;
+}
