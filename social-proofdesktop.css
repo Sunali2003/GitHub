@@ -10,6 +10,7 @@
 .mainbackground{
   background-color:var(--white);
   line-height: 2.6rem;
+  display: flex;
 }
 
 .bigheading{
@@ -34,4 +35,47 @@ padding: 0rem 4rem 1rem 6rem;
   color:var(--darkgrayishmagenta);
   line-height: 1.4rem;
   padding: 0rem 3rem 1rem 6rem;
+}
+.rightside{
+  font-family: "League Spartan", sans-serif;
+  font-size:1rem ;
+  font-weight:bold;
+  color:var(--verydarkmagenta);
+  border-radius: 1rem;
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+.fbox{
+  width: 20rem;
+  height: 2.5rem;
+  padding: 5rem 3rem 0rem 4rem;
+}
+.fbox img{
+
+
+}
+
+.sbox{
+  width: 20rem;
+  height: 2.5rem;
+  padding: 0rem 3rem 0rem 5rem;
+}
+.tbox{
+  width: 20rem;
+  height: 2.5rem;
+/*  background-color: var(--lightgrayishmagenta);*/
+  padding: 0rem 3rem 0rem 6rem;
+}
+
+/*
+.rightmain {
+	padding: 5rem 6rem;
+}
+*/
+.downone{
+  background-color: var(--darkgrayishmagenta);
+  width:3rem;
+  height:4rem;
+  border-radius: 1rem;
 }
