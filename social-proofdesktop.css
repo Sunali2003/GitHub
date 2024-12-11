@@ -75,10 +75,14 @@ padding: 0rem 4rem 1rem 6rem;
 */
 .downone{
   background-color: var(--verydarkmagenta);
-  width: 15rem;
-  height: 13rem;
+  width: 16rem;
+  height: 12rem;
   border-radius: 0.5rem;
   position: relative;
+  display:flex;
+  flex-direction: column;
+  padding: 1rem;
+    font-family: "League Spartan", sans-serif;
 }
 
 .downtwo{
@@ -88,23 +92,81 @@ padding: 0rem 4rem 1rem 6rem;
   border-radius: 0.5rem;
   position: absolute;
   top: 350px;
-  left: 380px;
-
+  left:403px;
+  padding: 1rem;
 }
 
-.downthree{
-    background-color: var(--verydarkmagenta);
-    width: 15rem;
-    height: 13rem;
-    border-radius: 0.5rem;
-    position: absolute;
-    top: 372px;
-    left: 660px;
-  }
+.downthree {
+	background-color: var(--verydarkmagenta);
+	width: 15rem;
+	height: 14rem;
+	border-radius: 0.5rem;
+	position: absolute;
+	top: 377px;
+	left: 689px;
+  padding: 1rem;
+}
+
 
 .down {
 	display: flex;
   padding: 1rem 1rem 5rem 6rem;
   gap: 2rem;
 
+}
+.fbox{
+  background-color:
+}
+.fbox .icon{
+  background-color: var(--lightgrayishmagenta);
+}
+.downone img{
+  border-radius: 50%;
+  width: 34px;
+/*  padding: 2rem 1rem 2rem 1rem;*/
+  height: 40px;
+}
+
+.downtwo img{
+  border-radius: 50%;
+  width: 34px;
+
+}
+
+.downthree img{
+  border-radius: 50%;
+  width: 34px;
+
+}
+
+.downone .text{
+  color: white;
+/* padding: 1.5rem 2rem 0rem 0rem;*/
+  height: 40px;
+}
+.text .buyer{
+  font-size: 20px;
+}
+.paraone{
+
+  line-height: normal;
+  color: white;
+  font-size: 12px;
+    font-family: "League Spartan", sans-serif;
+}
+.downtwo .text{
+  color: white;
+  height: 40px;
+}
+.downtwo .Buyer{
+font-size: 20px;
+}
+
+.buyer {
+	color: #ffffff80;
+    font-family: "League Spartan", sans-serif;
+}
+.text{
+    font-family: "League Spartan", sans-serif;
+    color: white;
 }
