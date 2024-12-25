@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Practising Js  </title>
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+document.getElementById('three').addEventListener('click',clickEvent);
+})
+
+// document.getElementById('three').addEventListener('click',function(){
+
+// });
+// document.getElementById('three').addEventListener('click',()=>{
+//
+// });
+
+function clickEvent(){
+  let number_1 = document.getElementById('one').value;
+  let number_2 = document.getElementById('two').value;
+  let number_3 = parseInt(number_1) + parseInt(number_2);
+  document.querySelector('.output').innerText = number_3;
+}
+
+</script>
+
+</head>
+<body>
+
+<div class="input">
+   <input type="number" id="one" required></input>
+   <input type="number" id="two" required></input>
+   <input type="button" value="add" id="three" ></input>
+   <div class="output"></div>
+</div>
+
+<!--
+<div class="dateandtime">
+  <input type="datetime"
+-->
+
+</body>
+</html>
