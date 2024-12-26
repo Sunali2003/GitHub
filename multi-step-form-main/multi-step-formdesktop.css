@@ -1,0 +1,50 @@
+@media (min-width:1024px) {
+:root{
+ --colorred: hsl(0, 100%, 74%) ;
+ --colorgreen: hsl(154, 59%, 51%);
+ --colorblue: hsl(248, 32%, 49%);
+ --colordarkblue: hsl(249, 10%, 26%);
+ --colorgrayishblue: hsl(246, 25%, 77%);
+}
+
+body{
+  background-color:pink;
+  font-size: 10px;
+
+}
+.whitebackground{
+  background-color:powderblue;
+  width:70%;
+  border-radius: 1rem;
+  height:36rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+.mainbackground {
+	display: flex;
+	justify-content: center;
+}
+.bluecontainer {
+  background-image: url("./assets/images/bg-sidebar-desktop.svg");
+  background-repeat: no-repeat;
+  height:40rem;
+  padding: 1rem;
+
+}
+img {
+	padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
