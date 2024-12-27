@@ -14,7 +14,7 @@
 }
 .whitebackground{
   background-color:white;
-  width:70%;
+  width:68%;
   border-radius: 1rem;
   height:36rem;
   padding: 1rem;
@@ -27,33 +27,114 @@
 .bluecontainer {
   background-image: url("./assets/images/bg-sidebar-desktop.svg");
   background-repeat: no-repeat;
-  height:40rem;
+  height:35rem;
   padding: 1rem;
-
+  display: flex;
 }
 img {
 	padding: 1rem;
 }
 .round{
   color:white;
+  padding:1rem 0rem 0rem 2rem;
+}
+.circle{
+  font-weight: bold;
 }
 .round .circle{
-  width:20px;
-  height:20px;
+  width:1.4rem;
+  height:1.4rem;
   border-radius:50%;
-  background-color: white;
-  color:blue;
+  border:0.05rem solid white;
+  color:white;
   display:flex;
   align-items: center;
   justify-content: center;
-  margin:2rem;
+
 }
 .round .steps{
 font-size:0.7rem;
 font-weight:bold;
+margin: -0.1rem 0rem 0rem 2rem;
+}
+.round .number{
+ margin: -1.4rem 2rem 0rem 2rem;
+ color:#ffffffa8;
+}
+.round .circle:hover{
+  background-color:#e6eeee;;
+  color:black;
+  font-weight:bold;
+}
+.bigheading {
+  padding: 1.8rem 0rem 1rem 13rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #341414;
+}
+.smallheading {
+	padding: 1rem 0rem 3rem 13rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: gray;
+}
+.formcontainer{
+  padding: 0rem 3rem 3rem 13rem;
 
 }
+#name {
+	width: 112%;
+  height: 1.7rem;
+}
+#email{
+  width: 112%;
+  height: 1.7rem;
+  }
+#number{
+  width: 112%;
+  height: 1.7rem;
+}
+label {
+	font-size: 0.7rem;
+}
+#email:focus{
+  border: 0.1rem solid pink;
 
+}
+#number:hover{
+  border:0.1rem solid red;
+}
+button{
+	position: fixed;
+	bottom: 26%;
+	right: 22%;
+  padding: 0.8rem;
+  background-color: ;
+  color: #ffffffd4;
+  background-color: #2727e4;
+  border-radius: 0.9rem;
+  width: 7rem;
+  font-weight: 600;
+}
+.round button{
+  width:1.4rem;
+  height:1.4rem;
+  border-radius:50%;
+  border:0.05rem solid white;
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+}
 
 
 
