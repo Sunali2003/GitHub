@@ -1,0 +1,74 @@
+@media (max-width:768px) {
+
+.bluecontainer {
+    background-image: url("./assets/images/bg-sidebar-mobile.svg");
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-size: contain;
+    position: relative;
+}
+.whitebackground {
+  padding:0rem;
+  background-color: aliceblue;
+}
+.smallheading{
+  padding: 0rem 0rem 1rem 0rem;
+  line-height: 0.9rem;
+}
+.formcontainer {
+  padding:0rem;
+}
+
+.round .steps, .number{
+	display: none;
+}
+.round {
+	display: flex;
+	padding: 3rem;
+}
+#stepone, #stepwo, #stepthree {
+/*  margin: 0rem 1rem 1rem 6rem;*/
+}
+
+.headings {
+	background-color: white;
+	border-radius: 1rem;
+	width:98%;
+  padding: 1rem 0rem 3rem 0.5rem;
+  height: 18rem;
+  margin:6rem 0.9rem 0rem 0rem;
+}
+#name, #email, #number{
+  width: 95%;
+}
+.bigheading{
+padding:1rem 0rem 1.5rem 0rem;
+font-size: 1rem;
+    line-height: 1rem;
+}
+#bluebutton{
+  background-color: #3c3cc2;
+  position: absolute;
+  top: 87%;
+  left:  18%;
+  bottom: 5%;
+}
+.round{
+  position: absolute;
+  left: 50%;
+  display: flex;
+  gap: 0.2rem;
+  top: 0%;
+  transform: translate(-50%, 0%);
+}
+#name, #email, #number {
+	width: 88%;
+}
+
+
+}
+
+
+
+
+}

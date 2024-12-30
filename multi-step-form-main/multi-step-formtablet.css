@@ -1,0 +1,53 @@
+@media (min-width:768px) {
+
+  .bigheading {
+  	padding: 1.8rem 0rem 1rem 10rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #574949;
+    line-height: 1.5rem;
+  }
+  .smallheading {
+  	padding: 1rem 0rem 3rem 10rem;
+  	font-size: 0.8rem;
+  	color: #a69c9c;
+  	line-height: 1rem;
+  }
+  .formcontainer {
+ 	padding: 0rem 1rem 3rem 10rem;
+ }
+ #bluebutton {
+	position: absolute;
+  bottom: 11%;
+  left: 67%;
+}
+label {
+	font-size: 0.8rem;
+	color: #5a4a4a;
+}
+.round .number {
+	margin: -1.9rem 1rem 0rem 2rem;
+	color: #d7cece;
+}
+
+.round .steps {
+line-height: 1rem;
+}
+#name {
+	width: 107%;
+}
+#email{
+  width:107%;
+}
+#number{
+  width:107%;
+}
+
+
+
+
+
+
+
+
+}
