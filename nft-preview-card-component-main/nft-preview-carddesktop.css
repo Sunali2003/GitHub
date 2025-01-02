@@ -1,0 +1,62 @@
+:root{
+--softblue: hsl(215, 51%, 70%);
+--cyan: hsl(178, 100%, 50%);
+--verydarkblue: hsl(217, 54%, 11%);      /*main bg*/
+--vverydarkblue: hsl(216, 50%, 16%);    /*card bg*/
+--vvverydarkblue: hsl(215, 32%, 27%);   /*line*/
+--white: hsl(0, 0%, 100%);
+}
+body{
+  background-color:var(--verydarkblue);
+  font-size:10px;
+  font-family: "Outfit", serif;
+}
+.mainbackground{
+  display:flex;
+  justify-content: center;
+}
+.darkblue{
+  background: var(--vverydarkblue);
+  width: 18rem;
+  margin: 6rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:1.5rem;
+}
+img{
+ border-radius: 1rem;
+}
+h1{
+	font-size: 1.5rem;
+  color:var(--white);
+}
+.grayline{
+	font-size: 1rem;
+  color:hsl(215.7, 22.6%, 63.5%);
+  padding: 0rem 0rem 1rem 0rem;
+}
+.icons img{
+  height: 1rem;
+  width: 0.7rem;
+}
+.icons {
+	display: flex;
+	gap: 0.4rem;
+  border-bottom: 0.04rem solid #69666680;
+}
+.clock img{
+  width: 1rem;
+}
+.clock {
+	display: flex;
+	gap: 0.3rem;
+  margin: 0rem 0rem 0rem 8rem;
+  padding: 0rem 0rem 1rem 0rem;
+}
+.lastsection img{
+  width:1.6rem;
+  border: 0.01rem solid white;
+  margin: 1rem 0rem 0rem 0rem;
+}
