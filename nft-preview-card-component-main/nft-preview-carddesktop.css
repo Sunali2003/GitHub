@@ -18,7 +18,7 @@ body{
 .darkblue{
   background: var(--vverydarkblue);
   width: 18rem;
-  margin: 6rem;
+  margin: 4rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -59,4 +59,10 @@ h1{
   width:1.6rem;
   border: 0.01rem solid white;
   margin: 1rem 0rem 0rem 0rem;
+}
+.lastsection {
+	display: flex;
+}
+.creator {
+	margin: 1.4rem 0rem 0rem 0.5rem;
 }
