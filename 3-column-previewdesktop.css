@@ -1,0 +1,69 @@
+:root{
+  --brightorange: hsl(31, 77%, 52%);
+  --darkcyan: hsl(184, 100%, 22%);
+  --varydarkcyan: hsl(179, 100%, 13%);
+  --transparentwhite: hsla(0, 0%, 100%, 0.75) ;  /*paragraphs*/
+  --verylightgray : hsl(0, 0%, 95%) ; /*(background, headings, buttons)*/
+}
+/*font-family: "Lexend Deca", serif;
+font-family: "Big Shoulders Display", serif;*/
+
+body{
+  background-color:white;
+}
+.yellowbox{
+  background-color:var(--brightorange);
+}
+.maincontainer {
+	display: flex;
+	justify-content: center;
+  margin: 7rem;
+}
+.bluebox{
+  background-color: var(--darkcyan);
+}
+.greenbox{
+  background-color: var(--varydarkcyan);
+}
+.yellowbox, .bluebox, .greenbox{
+  height: 23rem;
+  width: 15rem;
+  padding: 3rem 0rem 0rem 3rem;
+}
+.heading{
+  color:white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.3rem 0rem;
+  font-family: "Big Shoulders Display", serif;
+}
+.paragraph{
+  color:white;
+  font-size:0.8rem;
+  line-height:1.3rem;
+  font-family: "consolas", serif;
+}
+.buttonone button{
+  color:var(--brightorange);
+  margin: 5.3rem 0rem 0.5rem 0rem;
+}
+.buttontwo button{
+color:var(--darkcyan);
+margin: 4rem 0rem 0.5rem 0rem;
+}
+.buttonthree button{
+color:var(--varydarkcyan);
+margin: 5.3rem 0rem 0.5rem 0rem;
+}
+button {
+	background-color: white;
+	width: 8rem;
+	height: 2.5rem;
+	border-radius: 1rem;
+  border: 0;
+}
+button:hover{
+  background-color: transparent;
+  border: 0.01rem solid white;
+  color:white;
+}
