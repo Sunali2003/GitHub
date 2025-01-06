@@ -1,0 +1,91 @@
+body{
+background-color:white;
+margin: 0;
+
+}
+.header img{
+  width: 10rem;
+  height: 8rem;
+  margin-top: -2rem;
+  padding: 1rem 31rem 0rem 5rem;
+}
+header{
+  display:flex;
+}
+.bold {
+	color: #800080d6;
+}
+.light {
+	color: #1818a6;
+}
+.girl img{
+  width: 28rem;
+  height: 34rem;
+  padding: 2rem 7rem 0rem 7rem;;
+}
+.mainbackground{
+  background-color:#80008036;
+  border-top: 0.5rem solid #a4caeb8c;
+  border-bottom: 0.5rem solid #a4caeb8c;
+  height: 38.5rem;
+}
+.header{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+  gap: 3rem;
+}
+.girl {
+	display: flex;
+}
+.bighead{
+	margin: 7rem 0rem 0rem 6rem;
+	font-size: 6rem;
+  width: 30rem;
+  height: 7rem;
+  font-family:"Playwrite AU SA", serif;
+}
+.footer{
+  background-color:#0000ff73;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6rem 0rem 11rem;
+}
+.unique {
+	font-size: 2rem;
+	color: #efefef;
+}
+.off{
+  font-size:1rem;
+}
+.centersection {
+	display: flex;
+	justify-content: space-between;
+  padding: 2rem 7rem 2rem 7rem;
+}
+.one img{
+  width: 19rem;
+  height: 25rem;
+}
+.two img{
+  width: 19rem;
+  height: 25rem;
+}
+.three img{
+  width: 19rem;
+  height: 25rem;
+}
+.cap{
+  font-size: 2rem;
+  color: #8b5962;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading{
+  font-size: 3rem;
+  padding: 1rem 0rem 0rem 7rem;
+  font-family: "Playwrite AU SA", serif;
+  color: #604660;
+}
