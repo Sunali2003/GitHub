@@ -1,0 +1,58 @@
+@media (min-width:320px){
+
+.containertwo{
+    display:flex;
+    flex-direction:column-reverse;
+}
+.navimage{
+    background-image:url("../images/mobile/image-header.jpg") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 93rem;
+    width: 65rem;
+}
+.title{
+    padding: 2rem 32rem 2rem 3rem;
+    font-size: 3.5rem;
+}
+.headingcontainer{
+    font-size: 7rem;
+    text-align:center;
+    letter-spacing: 1.5rem;
+    font-weight: 900;
+    padding: 10rem 0rem 0rem 0rem;
+}
+.boxtwo{
+    background-image:url("../images/mobile/image-transform.jpg");
+    background-size: /*cover;*/
+    background-repeat: no-repeat;
+    height: 49rem;
+    width: 65rem;   
+}
+.boxone{
+    height: 50rem;
+    width: 66rem;
+}
+.navoptions{
+    display: none;
+}
+.arrowcontainer {
+    font-size: 27rem;
+}
+.bigtext {
+    font-size: 6rem;
+    padding: 0rem 2rem 0rem 12rem;
+}
+.ttext{
+    font-size:6rem;
+    text-align: center;
+}
+.smalltext{
+    color: #808080;
+    line-height: 4rem;
+    font-size:3rem;
+}
+
+
+}
