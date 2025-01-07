@@ -1,0 +1,117 @@
+/*font-family: "Barlow", serif;
+font-family: "Fraunces", serif;*/
+:root{
+--softred: hsl(7, 99%, 70%); 
+--yellow: hsl(51, 100%, 49%);
+--darkdesaturatedcyan: hsl(167, 40%, 24%);  /*(graphic design text)*/
+--darkblue: hsl(198, 62%, 26%);  /*(photography text)*/
+--darkmoderatecyan: hsl(168, 34%, 41%);  /*(footer)*/
+--verydarkdesaturatedblue: hsl(212, 27%, 19%);   
+--verydarkgrayishblue: hsl(213, 9%, 39%);
+--darkgrayishblue: hsl(232, 10%, 55%);
+--grayishblue: hsl(210, 4%, 67%);
+--white: hsl(0, 0%, 100%);
+}
+.navimage{
+   background-image:url("../images/desktop/image-header.jpg") ;
+   height: 38rem;
+    background-size: contain;
+   /* background-repeat: no-repeat;*/
+    background-position: center; 
+    width:100%;
+}
+.title{
+   color:var(--white);
+   font-family:"Barlow", serif;
+   font-size: 2rem;
+   font-weight: 800;
+   padding: 0rem 55rem 2rem 0rem;  
+}
+.navoptions {
+   font-weight: 500;
+   font-family: "Barlow", serif;
+   color:var(--white);
+   padding: 0.7rem 0rem 0rem 0rem;
+   margin:0rem 2rem 0rem 0rem;
+}
+.titlecontainer {
+   display: flex;
+   /*gap:rem;*/
+   padding: 1rem 0rem 0rem 2rem;
+}
+.headingcontainer {
+   display: flex;
+   justify-content: center;
+   font-family: "Fraunces", serif;
+   color:var(--white);
+   font-size: 3rem;
+   font-weight: 700;
+   letter-spacing: 0.5rem;
+   padding: 5rem 0rem 0rem 0rem;
+}
+.arrow {
+   display: flex;
+   justify-content: center;
+   color:var(--white);
+}
+.arrowcontainer {
+   font-size: 7rem;
+   padding: 3rem 0rem 0rem 0rem;
+}
+.navoptions:hover {
+   background-color: white;
+   color:black;
+   font-family: "Fraunces", serif;
+   border-radius: 2rem;
+  /* font-weight:700;*/
+   width:4rem;
+   display: flex;
+   justify-content: center;
+   height: 2rem;
+}
+.boxone{
+   height:29rem;
+   background-color:white;
+   width: 47rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  /* align-items: center;*/
+}
+.boxtwo{
+   background-image:url("../images/desktop/image-transform.jpg");
+   height: 29rem;
+   width: 47rem;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.containertwo{
+   display:flex;
+}
+.bigtext{
+   font-size:2rem;
+   font-family: "Fraunces", serif;
+   font-weight:900;
+   padding: 0rem 12rem 0rem 12rem;
+}
+.smalltext{
+   font-family:"Barlow", serif;
+   padding: 0rem 12rem 0rem 12rem;
+   font-size: 0.8rem;
+   font-weight: 700;
+   color: #808080bd;
+   line-height: 1.2rem;
+}
+.text {
+   font-size: 0.8rem;
+   font-weight: 900;
+   padding: 1rem 12rem 0rem 12rem;
+   text-decoration: underline;
+   text-decoration-color: orange;
+}
+.ttext{
+   font-size:2rem;
+   font-family: "Fraunces", serif;
+   font-weight:900;
+   padding: 0rem 12rem 1rem 12rem;
+}
