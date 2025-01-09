@@ -11,12 +11,20 @@
 --grayishblue: hsl(210, 4%, 67%);
 --white: hsl(0, 0%, 100%);
 }
+body{
+   margin: 0;
+   padding: 0;
+   
+}
+.sectionone{
+
+}
 .navimage{
    background-image:url("../images/desktop/image-header.jpg") ;
    height:46rem;
    background-size: contain;
    background-position: center; 
-   width:100%;
+   max-width:95.1rem;
 }
 .nav-container {
    display: flex;
@@ -32,8 +40,8 @@
 }
 .optionscontainer {
    display: flex;
-   gap: 3rem;
-   padding-right: 1rem;
+   gap: 2rem;
+   padding-right: 3rem;
 }
 .navoptions {
    font-weight: 500;
@@ -52,7 +60,7 @@
    justify-content: center;
    font-family: "Fraunces", serif;
    color:var(--white);
-   font-size: 4rem;
+   font-size: 3.4rem;
    font-weight: 900;
    letter-spacing: 0.5rem;
    padding: 4rem 0rem 0rem 0rem;
@@ -63,14 +71,14 @@
    color:var(--white);
 }
 .arrowcontainer {
-   font-size: 8rem;
+   font-size: 7rem;
    padding: 3.5rem 0rem 0rem 0rem;
 }
 .navoptions:hover {
    background: white;
    border-radius: 5rem;
    color: black;
-   /* font-family: "Fraunces", serif; */
+   /* font-family: "Fraunces", serif;  */
    padding: 1rem;  
 }
 .boxone{
@@ -93,7 +101,7 @@
    display:flex;
 }
 .bigtext{
-   font-size:3.5rem;
+   font-size:2.6rem;
    font-family: "Fraunces", serif;
    font-weight:900;
    padding: 0rem 0rem 0rem 9rem;
@@ -101,21 +109,21 @@
 .smalltext{
    font-family:"Barlow", serif;
    padding: 0rem 0rem 0rem 9rem;
-   font-size: 1.3rem;
-   font-weight: 700;
-   color: #808080bd;
+   font-size: 1.2rem;
+   font-weight: 600;
+   color: #8e8787f2;
    line-height: 2rem;
 }
 .text {
    font-size: 1rem;
    font-weight: 900;
-   padding: 2.5rem 0rem 0rem 9rem;
+   padding: 2.7rem 0rem 0rem 9rem;
    text-decoration: underline;
    text-decoration-color: orange;
    font-weight: bolder;
 }
 .ttext{
-   font-size:3.5rem;
+   font-size:2.6rem;
    font-family: "Fraunces", serif;
    font-weight:900;
    padding: 0rem 0rem 2rem 9rem;
@@ -230,10 +238,10 @@
 h1.h1 {
    display: flex;
    justify-content: center;
-   color: #808080d6;
+   color: #808080d9;
     letter-spacing: 0.4rem;
     font-weight: 900;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     padding: 8.5rem 1.5rem 4rem 0rem;
 }
 .clientcontainer{
@@ -248,22 +256,25 @@ img {
    margin: 0rem 4rem 4rem 8rem;
 }
 .emilyline {
-   font-size: 1.3rem;
+   font-size: 1.2rem;
    color: #3a3636ad;
    font-family: "Barlow", serif;
-   font-weight: 700;
+   font-weight: 600;
    line-height: 2rem;
    display: flex;
    justify-content: center;
 }
 .elastline {
-   font-weight: 700;
-   font-size: 1.3rem;
+   font-weight: 600;
+   font-size: 1.2rem;
    color: #3a3636ad;
    font-family:"Barlow", serif;
    display: flex;
    justify-content: center;
    line-height: 2rem;
+}
+.sectionimages {
+   width: 26rem;
 }
 .namecontainer {
    padding: 4rem 0rem 0rem 0rem;
@@ -278,30 +289,33 @@ img {
    padding: 0rem 4rem 0rem 0rem;
 }
 .designation {
-   color: #80808080;
+   color: #808080d1;
    font-family: "Barlow", serif;
    font-size: 1.1rem;
    font-weight: 600;
-   padding: 0.5rem 3rem 0rem 0rem;
+   padding: 0.5rem 3.6rem 0rem 0rem;
 }
 .sectionimages img{
-   width:23.5rem;
-   height:28rem;
+   width: 23.7rem;
+   height: 29rem;
    border-radius:0%;
    background-size:contain;
    margin:0;
 }
 .container6{
    display:flex;
+   justify-content: space-evenly;
+    align-items: center;
 }
 .container7 {
    background-color: hsl(168deg 43.53% 58.99% / 69%);
    height: 24rem;
+   width: 94.9rem;
 }
 .links {
    color: var(--darkmoderatecyan);
    font-family: "Barlow", serif;
-   font-size: 1.4rem;
+   font-size: 1.3rem;
    font-weight: 500;
    padding: 0rem 0rem 0rem 3rem;
 }
@@ -331,4 +345,9 @@ img {
    padding:0rem;
    margin:0rem;
    border-radius:0%;
+}
+
+
+.containertwo{
+   width: 100%;
 }
